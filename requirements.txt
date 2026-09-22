@@ -1,0 +1,10 @@
+google-genai>=2.3.0
+edge-tts>=6.1.12
+python-dotenv>=1.0.1
+pygame>=2.6.0
+pyserial>=3.5
+PyAudio>=0.2.14
+numpy>=1.26.0
+SpeechRecognition>=3.10.4
+opencv-python>=4.10.0.84
+requests>=2.32.3

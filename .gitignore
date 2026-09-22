@@ -1,0 +1,49 @@
+# Ambientes Virtuais
+venv/
+.venv/
+chat-roboldo/
+venv-roboldo/
+env/
+ENV/
+
+# Credenciais e Variáveis de Ambiente (CRÍTICO: Não comitar chaves de API!)
+.env
+.env.local
+
+# Arquivos de Áudio Temporários / Gravados em tempo de execução
+mensagem.wav
+resposta.mp3
+
+# Bytecode e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Configurações de IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
