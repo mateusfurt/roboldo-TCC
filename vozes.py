@@ -14,7 +14,7 @@ roteiro = {
     
     "03_construcao.mp3": "E para quem tem curiosidade sobre como eu fui construído, a estrutura do meu corpo é feita com papelão reciclado. Eu sou revestido com feltro azul e preenchido com uma fibra bem fofinha, o que me dá essa aparência de bichinho de pelúcia. Já as partes que contêm os eletrônicos foram impressas em 3D, em P L A, e modeladas para comportar essas peças perfeitamente.",
     
-    "04_despedida.mp3": "Eu adoraria bater um papo com vocês agora, mas os meus criadores me colocaram no modo de economia de bateria social hoje! Brincadeiras à parte, vocês podem se aproximar para ver de perto a minha estrutura e tirar quantas fotos quiserem. Ah, e um recado importante: não deixem de passar na área de robótica do evento para participar das pesquisas que os meus colegas de laboratório estão conduzindo! Se tiverem dúvidas sobre mim, a equipe está logo aqui do lado para responder. Um excelente evento a todos!"
+    "04_despedida.mp3": "Eu adoraria bater um papo com vocês agora, mas os meus criadores me colocaram no modo de economia de bateria social hoje! Então me despeço de vocês com um grande abraço e espero que possamos nos encontrar em breve. Até mais!"
 }
 
 async def gerar_todos_audios():

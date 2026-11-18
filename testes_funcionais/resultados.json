@@ -1,0 +1,217 @@
+{
+  "data": "2026-11-08T23:43:04-03:00",
+  "porta": "/dev/ttyACM0",
+  "baud": 115200,
+  "simulacao": false,
+  "repeticoes": 3,
+  "comandos": [
+    {
+      "codigo": "a",
+      "tipo": "Expressão",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: b",
+        "Sistema pronto! Aguardando comandos..."
+      ]
+    },
+    {
+      "codigo": "b",
+      "tipo": "Expressão",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: a",
+        "Comando de ROSTO recebido: b"
+      ]
+    },
+    {
+      "codigo": "c",
+      "tipo": "Expressão",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: a"
+      ]
+    },
+    {
+      "codigo": "d",
+      "tipo": "Expressão",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: a"
+      ]
+    },
+    {
+      "codigo": "e",
+      "tipo": "Expressão",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: a"
+      ]
+    },
+    {
+      "codigo": "f",
+      "tipo": "Expressão",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: a"
+      ]
+    },
+    {
+      "codigo": "g",
+      "tipo": "Boca",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: a",
+        "Comando de ROSTO recebido: h"
+      ]
+    },
+    {
+      "codigo": "h",
+      "tipo": "Boca",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de ROSTO recebido: g",
+        "Comando de ROSTO recebido: h"
+      ]
+    },
+    {
+      "codigo": "A",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z",
+        "Comando de ROSTO recebido: g"
+      ]
+    },
+    {
+      "codigo": "B",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "C",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "D",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "E",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "F",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "H",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "I",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: Z"
+      ]
+    },
+    {
+      "codigo": "Z",
+      "tipo": "Gesto",
+      "repeticoes": 3,
+      "sucessos": 3,
+      "observacao": "",
+      "resposta_esp32": [
+        "Comando de BRACOS recebido: A",
+        "Comando de BRACOS recebido: Z"
+      ]
+    }
+  ],
+  "t_ser": {
+    "ciclo_5_comandos_s": {
+      "n": 20,
+      "mediana": 0.25777578900010667,
+      "q1": 0.2552081620001445,
+      "q3": 0.2602374494999822,
+      "media": 0.257799158600028,
+      "dp": 0.002883670441751334,
+      "min": 0.2519363639999028,
+      "max": 0.26261042699979953
+    },
+    "ciclo_com_z_s": {
+      "n": 20,
+      "mediana": 0.3085044760002802,
+      "q1": 0.3071293980002565,
+      "q3": 0.31224925950004945,
+      "media": 0.30916490550007436,
+      "dp": 0.0034310523268403425,
+      "min": 0.30230175899987444,
+      "max": 0.314627420999841
+    },
+    "por_comando_s": {
+      "n": 20,
+      "mediana": 0.051543036200109776,
+      "q1": 0.05103048265002599,
+      "q3": 0.052038461999882206,
+      "media": 0.05154854488998353,
+      "dp": 0.000577633199297134,
+      "min": 0.05038036300002204,
+      "max": 0.05250438339990069
+    }
+  }
+}

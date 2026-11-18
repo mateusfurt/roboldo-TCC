@@ -1,0 +1,5 @@
+cenario,ordem,rodada,aquecimento,audio_id,repeticao,inicio,t_llm_s,t_tts_s,t_llm_tts_s,t_total_sem_ser_s,sucesso,etapa_erro,categoria_erro,codigo_http,mensagem_erro,tempo_ate_erro_s,tokens_entrada,tokens_saida,tokens_raciocinio,tokens_total,resposta_chars,texto_falado_chars,codigos_parser,fallback_parser,formato_valido,tts_bytes
+R1,0,0,1,A1,0,2026-11-04T15:42:18-03:00,24.5057,3.8031,28.3087,30.8087,1,,,,,,1217,26,,1243,97,94,aA,0,1,47808
+R1,1,1,0,A3,1,2026-11-04T15:42:56-03:00,13.8146,5.6955,19.5101,22.0101,1,,,,,,1433,74,,1507,304,301,eZ,0,1,116352
+R1,2,1,0,A2,1,2026-11-04T15:43:26-03:00,38.4958,5.9637,44.4595,46.9595,1,,,,,,1351,101,,1452,406,403,eZ,0,1,153792
+R1,3,1,0,A1,1,2026-11-04T15:44:20-03:00,15.3899,1.7917,17.1816,19.6816,1,,,,,,1217,26,,1243,108,105,aA,0,1,51552

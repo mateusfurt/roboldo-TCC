@@ -1,0 +1,272 @@
+{
+  "cenario": "R1",
+  "descricao_cenario": "Wi-Fi da universidade",
+  "modo_teste": true,
+  "modo_simulacao": false,
+  "status": "concluida",
+  "inicio": "2026-11-04T15:42:07-03:00",
+  "fim": "2026-11-04T15:44:37-03:00",
+  "retomadas": [],
+  "observacao": "",
+  "fast_com": {},
+  "modelo": "gemini-3.5-flash-lite",
+  "parametros": {
+    "rodadas": 1,
+    "audios_por_rodada": 3,
+    "semente": 2026,
+    "intervalo_s": 10.0,
+    "timeout_s": 60.0,
+    "pausa_apos_falhas_seguidas": 5,
+    "t_sil_s": 2.5,
+    "instrucao_fixa": "Por favor, responda a este áudio mantendo o contexto da nossa conversa.",
+    "voz_tts": "pt-BR-AntonioNeural",
+    "tts_rate": "+10%",
+    "tts_pitch": "+15Hz",
+    "sessao": "nova a cada chamada (sem histórico)",
+    "tentativas_apos_erro": 0
+  },
+  "template_txt_sha256": "0c5cafb58e5e1cd6f632272d7ab85d3e9f502133957da9e9da1b60c7d40181d8",
+  "audios": {
+    "A1": {
+      "arquivo": "audio1_curto.wav",
+      "sha256": "f721916f6148a6159af29c801aee174583760e336734a7a0c216d69d2f22c33f",
+      "tamanho_bytes": 458796,
+      "fala_s": 1.72,
+      "arquivo_s": 5.2
+    },
+    "A2": {
+      "arquivo": "audio2_medio.wav",
+      "sha256": "f4bcbb1212968105dd49cd8395f0d781b8428fb47c247bf0fca3a194ee194355",
+      "tamanho_bytes": 933932,
+      "fala_s": 6.97,
+      "arquivo_s": 10.59
+    },
+    "A3": {
+      "arquivo": "audio3_longo.wav",
+      "sha256": "144df636f7e7e28631abc337a6d24d30e5af81f764d4280b920af49f8f8a32c4",
+      "tamanho_bytes": 1222700,
+      "fala_s": 10.4,
+      "arquivo_s": 13.86
+    }
+  },
+  "ambiente": {
+    "python": "3.12.3",
+    "sistema": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+    "google_genai": "2.31.0",
+    "edge_tts": "7.3.1",
+    "numpy": "2.5.4"
+  },
+  "resumo": {
+    "chamadas_medidas": 3,
+    "sucessos": 3,
+    "falhas": 0,
+    "falhas_por_categoria": {},
+    "formato_valido": 3,
+    "fallback_do_parser": 0,
+    "geral": {
+      "t_llm_s": {
+        "n": 3,
+        "mediana": 15.39,
+        "q1": 14.602,
+        "q3": 26.943,
+        "iqr": 12.341,
+        "media": 22.567,
+        "dp": 13.817,
+        "min": 13.815,
+        "max": 38.496,
+        "p90": 33.875
+      },
+      "t_tts_s": {
+        "n": 3,
+        "mediana": 5.696,
+        "q1": 3.744,
+        "q3": 5.83,
+        "iqr": 2.086,
+        "media": 4.484,
+        "dp": 2.335,
+        "min": 1.792,
+        "max": 5.964,
+        "p90": 5.91
+      },
+      "t_llm_tts_s": {
+        "n": 3,
+        "mediana": 19.51,
+        "q1": 18.346,
+        "q3": 31.985,
+        "iqr": 13.639,
+        "media": 27.05,
+        "dp": 15.122,
+        "min": 17.182,
+        "max": 44.459,
+        "p90": 39.47
+      },
+      "t_total_sem_ser_s": {
+        "n": 3,
+        "mediana": 22.01,
+        "q1": 20.846,
+        "q3": 34.485,
+        "iqr": 13.639,
+        "media": 29.55,
+        "dp": 15.122,
+        "min": 19.682,
+        "max": 46.959,
+        "p90": 41.97
+      }
+    },
+    "por_audio": {
+      "A1": {
+        "sucessos": 1,
+        "t_llm_s": {
+          "n": 1,
+          "mediana": 15.39,
+          "q1": 15.39,
+          "q3": 15.39,
+          "iqr": 0.0,
+          "media": 15.39,
+          "dp": 0.0,
+          "min": 15.39,
+          "max": 15.39,
+          "p90": 15.39
+        },
+        "t_tts_s": {
+          "n": 1,
+          "mediana": 1.792,
+          "q1": 1.792,
+          "q3": 1.792,
+          "iqr": 0.0,
+          "media": 1.792,
+          "dp": 0.0,
+          "min": 1.792,
+          "max": 1.792,
+          "p90": 1.792
+        },
+        "t_llm_tts_s": {
+          "n": 1,
+          "mediana": 17.182,
+          "q1": 17.182,
+          "q3": 17.182,
+          "iqr": 0.0,
+          "media": 17.182,
+          "dp": 0.0,
+          "min": 17.182,
+          "max": 17.182,
+          "p90": 17.182
+        },
+        "t_total_sem_ser_s": {
+          "n": 1,
+          "mediana": 19.682,
+          "q1": 19.682,
+          "q3": 19.682,
+          "iqr": 0.0,
+          "media": 19.682,
+          "dp": 0.0,
+          "min": 19.682,
+          "max": 19.682,
+          "p90": 19.682
+        }
+      },
+      "A2": {
+        "sucessos": 1,
+        "t_llm_s": {
+          "n": 1,
+          "mediana": 38.496,
+          "q1": 38.496,
+          "q3": 38.496,
+          "iqr": 0.0,
+          "media": 38.496,
+          "dp": 0.0,
+          "min": 38.496,
+          "max": 38.496,
+          "p90": 38.496
+        },
+        "t_tts_s": {
+          "n": 1,
+          "mediana": 5.964,
+          "q1": 5.964,
+          "q3": 5.964,
+          "iqr": 0.0,
+          "media": 5.964,
+          "dp": 0.0,
+          "min": 5.964,
+          "max": 5.964,
+          "p90": 5.964
+        },
+        "t_llm_tts_s": {
+          "n": 1,
+          "mediana": 44.459,
+          "q1": 44.459,
+          "q3": 44.459,
+          "iqr": 0.0,
+          "media": 44.459,
+          "dp": 0.0,
+          "min": 44.459,
+          "max": 44.459,
+          "p90": 44.459
+        },
+        "t_total_sem_ser_s": {
+          "n": 1,
+          "mediana": 46.959,
+          "q1": 46.959,
+          "q3": 46.959,
+          "iqr": 0.0,
+          "media": 46.959,
+          "dp": 0.0,
+          "min": 46.959,
+          "max": 46.959,
+          "p90": 46.959
+        }
+      },
+      "A3": {
+        "sucessos": 1,
+        "t_llm_s": {
+          "n": 1,
+          "mediana": 13.815,
+          "q1": 13.815,
+          "q3": 13.815,
+          "iqr": 0.0,
+          "media": 13.815,
+          "dp": 0.0,
+          "min": 13.815,
+          "max": 13.815,
+          "p90": 13.815
+        },
+        "t_tts_s": {
+          "n": 1,
+          "mediana": 5.696,
+          "q1": 5.696,
+          "q3": 5.696,
+          "iqr": 0.0,
+          "media": 5.696,
+          "dp": 0.0,
+          "min": 5.696,
+          "max": 5.696,
+          "p90": 5.696
+        },
+        "t_llm_tts_s": {
+          "n": 1,
+          "mediana": 19.51,
+          "q1": 19.51,
+          "q3": 19.51,
+          "iqr": 0.0,
+          "media": 19.51,
+          "dp": 0.0,
+          "min": 19.51,
+          "max": 19.51,
+          "p90": 19.51
+        },
+        "t_total_sem_ser_s": {
+          "n": 1,
+          "mediana": 22.01,
+          "q1": 22.01,
+          "q3": 22.01,
+          "iqr": 0.0,
+          "media": 22.01,
+          "dp": 0.0,
+          "min": 22.01,
+          "max": 22.01,
+          "p90": 22.01
+        }
+      }
+    }
+  }
+}

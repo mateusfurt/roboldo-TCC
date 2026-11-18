@@ -93,7 +93,7 @@ passos_apresentacao = [
     ("audios_demonstracao/04_despedida.mp3", 'b', 'Z', [
         (7.0, 'e'),
         (7.5, 'g'),
-        (25.0, 'aA')    # Aos 7.0s ("brincadeiras à parte"): volta a ficar feliz
+        (14.0, 'aA')    # Aos 7.0s ("brincadeiras à parte"): volta a ficar feliz
     ])
 ]
 

@@ -1,0 +1,58 @@
+{
+  "parametros": {
+    "taxa_amostragem_hz": 44100,
+    "canais": 1,
+    "bits_por_amostra": 16,
+    "bloco_amostras": 1024,
+    "silencio_para_encerrar_s": 2.5,
+    "blocos_de_calibracao": 10,
+    "margem_do_limiar": 200,
+    "duracao_maxima_s": 30
+  },
+  "audios": {
+    "A1": {
+      "perfil": "Curto",
+      "texto": "Oi, Roboldo, tudo bem?",
+      "arquivo": "audio1_curto.wav",
+      "gravado_em": "2026-11-04T13:18:49",
+      "inicio_fala_s": 0.98,
+      "fala_s": 1.72,
+      "arquivo_s": 5.2,
+      "tamanho_bytes": 458796,
+      "sha256": "f721916f6148a6159af29c801aee174583760e336734a7a0c216d69d2f22c33f",
+      "ruido_ambiente": 0.5,
+      "limiar": 200.5,
+      "avisos": [
+        "A fala ficou fora da faixa prevista para o perfil curto (2 a 5 s)."
+      ]
+    },
+    "A2": {
+      "perfil": "Médio",
+      "texto": "Roboldo, você pode me explicar por que o céu é azul e o pôr do sol é vermelho?",
+      "arquivo": "audio2_medio.wav",
+      "gravado_em": "2026-11-04T13:21:19",
+      "inicio_fala_s": 1.11,
+      "fala_s": 6.97,
+      "arquivo_s": 10.59,
+      "tamanho_bytes": 933932,
+      "sha256": "f4bcbb1212968105dd49cd8395f0d781b8428fb47c247bf0fca3a194ee194355",
+      "ruido_ambiente": 0.6,
+      "limiar": 200.6,
+      "avisos": []
+    },
+    "A3": {
+      "perfil": "Longo",
+      "texto": "Roboldo, primeiro me conta uma piada bem boa, e depois me diz: se você fosse humano por um dia, o que você faria e por quê?",
+      "arquivo": "audio3_longo.wav",
+      "gravado_em": "2026-11-04T13:24:08",
+      "inicio_fala_s": 0.95,
+      "fala_s": 10.4,
+      "arquivo_s": 13.86,
+      "tamanho_bytes": 1222700,
+      "sha256": "144df636f7e7e28631abc337a6d24d30e5af81f764d4280b920af49f8f8a32c4",
+      "ruido_ambiente": 0.4,
+      "limiar": 200.4,
+      "avisos": []
+    }
+  }
+}

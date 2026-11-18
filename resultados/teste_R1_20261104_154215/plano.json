@@ -1,0 +1,34 @@
+{
+  "semente": 2026,
+  "rodadas": 1,
+  "sequencia": [
+    {
+      "ordem": 0,
+      "rodada": 0,
+      "audio_id": "A1",
+      "repeticao": 0,
+      "aquecimento": true
+    },
+    {
+      "ordem": 1,
+      "rodada": 1,
+      "audio_id": "A3",
+      "repeticao": 1,
+      "aquecimento": false
+    },
+    {
+      "ordem": 2,
+      "rodada": 1,
+      "audio_id": "A2",
+      "repeticao": 1,
+      "aquecimento": false
+    },
+    {
+      "ordem": 3,
+      "rodada": 1,
+      "audio_id": "A1",
+      "repeticao": 1,
+      "aquecimento": false
+    }
+  ]
+}

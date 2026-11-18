@@ -1,0 +1,433 @@
+{
+  "semente": 2026,
+  "rodadas": 20,
+  "sequencia": [
+    {
+      "ordem": 0,
+      "rodada": 0,
+      "audio_id": "A1",
+      "repeticao": 0,
+      "aquecimento": true
+    },
+    {
+      "ordem": 1,
+      "rodada": 1,
+      "audio_id": "A3",
+      "repeticao": 1,
+      "aquecimento": false
+    },
+    {
+      "ordem": 2,
+      "rodada": 1,
+      "audio_id": "A2",
+      "repeticao": 1,
+      "aquecimento": false
+    },
+    {
+      "ordem": 3,
+      "rodada": 1,
+      "audio_id": "A1",
+      "repeticao": 1,
+      "aquecimento": false
+    },
+    {
+      "ordem": 4,
+      "rodada": 2,
+      "audio_id": "A2",
+      "repeticao": 2,
+      "aquecimento": false
+    },
+    {
+      "ordem": 5,
+      "rodada": 2,
+      "audio_id": "A1",
+      "repeticao": 2,
+      "aquecimento": false
+    },
+    {
+      "ordem": 6,
+      "rodada": 2,
+      "audio_id": "A3",
+      "repeticao": 2,
+      "aquecimento": false
+    },
+    {
+      "ordem": 7,
+      "rodada": 3,
+      "audio_id": "A3",
+      "repeticao": 3,
+      "aquecimento": false
+    },
+    {
+      "ordem": 8,
+      "rodada": 3,
+      "audio_id": "A2",
+      "repeticao": 3,
+      "aquecimento": false
+    },
+    {
+      "ordem": 9,
+      "rodada": 3,
+      "audio_id": "A1",
+      "repeticao": 3,
+      "aquecimento": false
+    },
+    {
+      "ordem": 10,
+      "rodada": 4,
+      "audio_id": "A1",
+      "repeticao": 4,
+      "aquecimento": false
+    },
+    {
+      "ordem": 11,
+      "rodada": 4,
+      "audio_id": "A2",
+      "repeticao": 4,
+      "aquecimento": false
+    },
+    {
+      "ordem": 12,
+      "rodada": 4,
+      "audio_id": "A3",
+      "repeticao": 4,
+      "aquecimento": false
+    },
+    {
+      "ordem": 13,
+      "rodada": 5,
+      "audio_id": "A1",
+      "repeticao": 5,
+      "aquecimento": false
+    },
+    {
+      "ordem": 14,
+      "rodada": 5,
+      "audio_id": "A2",
+      "repeticao": 5,
+      "aquecimento": false
+    },
+    {
+      "ordem": 15,
+      "rodada": 5,
+      "audio_id": "A3",
+      "repeticao": 5,
+      "aquecimento": false
+    },
+    {
+      "ordem": 16,
+      "rodada": 6,
+      "audio_id": "A2",
+      "repeticao": 6,
+      "aquecimento": false
+    },
+    {
+      "ordem": 17,
+      "rodada": 6,
+      "audio_id": "A3",
+      "repeticao": 6,
+      "aquecimento": false
+    },
+    {
+      "ordem": 18,
+      "rodada": 6,
+      "audio_id": "A1",
+      "repeticao": 6,
+      "aquecimento": false
+    },
+    {
+      "ordem": 19,
+      "rodada": 7,
+      "audio_id": "A2",
+      "repeticao": 7,
+      "aquecimento": false
+    },
+    {
+      "ordem": 20,
+      "rodada": 7,
+      "audio_id": "A1",
+      "repeticao": 7,
+      "aquecimento": false
+    },
+    {
+      "ordem": 21,
+      "rodada": 7,
+      "audio_id": "A3",
+      "repeticao": 7,
+      "aquecimento": false
+    },
+    {
+      "ordem": 22,
+      "rodada": 8,
+      "audio_id": "A3",
+      "repeticao": 8,
+      "aquecimento": false
+    },
+    {
+      "ordem": 23,
+      "rodada": 8,
+      "audio_id": "A2",
+      "repeticao": 8,
+      "aquecimento": false
+    },
+    {
+      "ordem": 24,
+      "rodada": 8,
+      "audio_id": "A1",
+      "repeticao": 8,
+      "aquecimento": false
+    },
+    {
+      "ordem": 25,
+      "rodada": 9,
+      "audio_id": "A3",
+      "repeticao": 9,
+      "aquecimento": false
+    },
+    {
+      "ordem": 26,
+      "rodada": 9,
+      "audio_id": "A2",
+      "repeticao": 9,
+      "aquecimento": false
+    },
+    {
+      "ordem": 27,
+      "rodada": 9,
+      "audio_id": "A1",
+      "repeticao": 9,
+      "aquecimento": false
+    },
+    {
+      "ordem": 28,
+      "rodada": 10,
+      "audio_id": "A3",
+      "repeticao": 10,
+      "aquecimento": false
+    },
+    {
+      "ordem": 29,
+      "rodada": 10,
+      "audio_id": "A2",
+      "repeticao": 10,
+      "aquecimento": false
+    },
+    {
+      "ordem": 30,
+      "rodada": 10,
+      "audio_id": "A1",
+      "repeticao": 10,
+      "aquecimento": false
+    },
+    {
+      "ordem": 31,
+      "rodada": 11,
+      "audio_id": "A1",
+      "repeticao": 11,
+      "aquecimento": false
+    },
+    {
+      "ordem": 32,
+      "rodada": 11,
+      "audio_id": "A2",
+      "repeticao": 11,
+      "aquecimento": false
+    },
+    {
+      "ordem": 33,
+      "rodada": 11,
+      "audio_id": "A3",
+      "repeticao": 11,
+      "aquecimento": false
+    },
+    {
+      "ordem": 34,
+      "rodada": 12,
+      "audio_id": "A3",
+      "repeticao": 12,
+      "aquecimento": false
+    },
+    {
+      "ordem": 35,
+      "rodada": 12,
+      "audio_id": "A2",
+      "repeticao": 12,
+      "aquecimento": false
+    },
+    {
+      "ordem": 36,
+      "rodada": 12,
+      "audio_id": "A1",
+      "repeticao": 12,
+      "aquecimento": false
+    },
+    {
+      "ordem": 37,
+      "rodada": 13,
+      "audio_id": "A1",
+      "repeticao": 13,
+      "aquecimento": false
+    },
+    {
+      "ordem": 38,
+      "rodada": 13,
+      "audio_id": "A3",
+      "repeticao": 13,
+      "aquecimento": false
+    },
+    {
+      "ordem": 39,
+      "rodada": 13,
+      "audio_id": "A2",
+      "repeticao": 13,
+      "aquecimento": false
+    },
+    {
+      "ordem": 40,
+      "rodada": 14,
+      "audio_id": "A1",
+      "repeticao": 14,
+      "aquecimento": false
+    },
+    {
+      "ordem": 41,
+      "rodada": 14,
+      "audio_id": "A3",
+      "repeticao": 14,
+      "aquecimento": false
+    },
+    {
+      "ordem": 42,
+      "rodada": 14,
+      "audio_id": "A2",
+      "repeticao": 14,
+      "aquecimento": false
+    },
+    {
+      "ordem": 43,
+      "rodada": 15,
+      "audio_id": "A2",
+      "repeticao": 15,
+      "aquecimento": false
+    },
+    {
+      "ordem": 44,
+      "rodada": 15,
+      "audio_id": "A1",
+      "repeticao": 15,
+      "aquecimento": false
+    },
+    {
+      "ordem": 45,
+      "rodada": 15,
+      "audio_id": "A3",
+      "repeticao": 15,
+      "aquecimento": false
+    },
+    {
+      "ordem": 46,
+      "rodada": 16,
+      "audio_id": "A1",
+      "repeticao": 16,
+      "aquecimento": false
+    },
+    {
+      "ordem": 47,
+      "rodada": 16,
+      "audio_id": "A2",
+      "repeticao": 16,
+      "aquecimento": false
+    },
+    {
+      "ordem": 48,
+      "rodada": 16,
+      "audio_id": "A3",
+      "repeticao": 16,
+      "aquecimento": false
+    },
+    {
+      "ordem": 49,
+      "rodada": 17,
+      "audio_id": "A3",
+      "repeticao": 17,
+      "aquecimento": false
+    },
+    {
+      "ordem": 50,
+      "rodada": 17,
+      "audio_id": "A2",
+      "repeticao": 17,
+      "aquecimento": false
+    },
+    {
+      "ordem": 51,
+      "rodada": 17,
+      "audio_id": "A1",
+      "repeticao": 17,
+      "aquecimento": false
+    },
+    {
+      "ordem": 52,
+      "rodada": 18,
+      "audio_id": "A1",
+      "repeticao": 18,
+      "aquecimento": false
+    },
+    {
+      "ordem": 53,
+      "rodada": 18,
+      "audio_id": "A3",
+      "repeticao": 18,
+      "aquecimento": false
+    },
+    {
+      "ordem": 54,
+      "rodada": 18,
+      "audio_id": "A2",
+      "repeticao": 18,
+      "aquecimento": false
+    },
+    {
+      "ordem": 55,
+      "rodada": 19,
+      "audio_id": "A3",
+      "repeticao": 19,
+      "aquecimento": false
+    },
+    {
+      "ordem": 56,
+      "rodada": 19,
+      "audio_id": "A2",
+      "repeticao": 19,
+      "aquecimento": false
+    },
+    {
+      "ordem": 57,
+      "rodada": 19,
+      "audio_id": "A1",
+      "repeticao": 19,
+      "aquecimento": false
+    },
+    {
+      "ordem": 58,
+      "rodada": 20,
+      "audio_id": "A3",
+      "repeticao": 20,
+      "aquecimento": false
+    },
+    {
+      "ordem": 59,
+      "rodada": 20,
+      "audio_id": "A2",
+      "repeticao": 20,
+      "aquecimento": false
+    },
+    {
+      "ordem": 60,
+      "rodada": 20,
+      "audio_id": "A1",
+      "repeticao": 20,
+      "aquecimento": false
+    }
+  ]
+}
